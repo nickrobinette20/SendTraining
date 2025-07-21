@@ -51,7 +51,7 @@ namespace send_training_backend.Services
             var users = _iUserRepository.GetAllHardestGrade();
             return users.ToArray();
         }
-
+           
         
     }
 }
